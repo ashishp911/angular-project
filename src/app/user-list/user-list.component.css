@@ -1,0 +1,35 @@
+app-user-details {
+    display: block;
+    min-height: 145px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+app-user-list {
+    align-content: center;
+}
+
+span {
+    float: right;
+}
+a {
+    font-weight: 600;
+    margin: 3px;
+}
+.total_items {
+    margin-top:10px;
+    margin-bottom: 10px;
+    font-weight:600;
+}
+.started {
+    text-align: center;
+    color: #9099a6;
+}
+
+@media (max-width: 599px)
+{
+ .container {
+     margin-left: 0px !important;
+     margin-right: 0px !important;
+ }   
+}
